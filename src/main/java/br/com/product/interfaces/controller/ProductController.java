@@ -27,16 +27,4 @@ public class ProductController {
         var product = productService.findByIdAndCategory(productId, categoryId);
         return ResponseEntity.ok(product);
     }
-
-    @PostMapping("/product")
-    public ResponseEntity<String> getProductByNameAndCategory(@RequestBody Product product){
-        var produto = new Product();
-        produto.setName(product.getName());
-        var category = Category.fromValue(1);
-        produto.setCategory(category);
-        produto.setDescription(product.getDescription());
-        produto.setPrice(product.getPrice());
-        productService.save(produto);
-        return ResponseEntity.ok("produto adicionado com sucesso");
-    }
 }

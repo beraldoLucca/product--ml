@@ -6,6 +6,4 @@ import br.com.product.domain.model.Product;
 public interface IProductService {
 
     ProductResponseDTO findByIdAndCategory(Integer product, Integer categoriaId);
-
-    void save(Product product);
 }

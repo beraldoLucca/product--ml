@@ -29,9 +29,4 @@ public class ProductServiceImpl implements IProductService {
             return ProductResponseDTO.from(productRepository.findByProductIdAndCategory(productId, category));
         }
     }
-
-    @Override
-    public void save(Product product) {
-        productRepository.save(product);
-    }
 }
