@@ -20,13 +20,13 @@ Instruções para instalação do projeto.
 
 ```bash
 # Clone o repositório
-git clone https://github.com/beraldoLucca/fast-food.git
+git clone https://github.com/beraldoLucca/product--ml.git
 
 # Navegue até o diretório do projeto
 cd product
 
 # Rode a aplicação com o seguinte comando
-java --jar product-0.0.1-SNAPSHOT.jar
+java -jar product-0.0.1-SNAPSHOT.jar
 
 # Depois da aplicação estar rodando, acesse a URL do Swagger
 http://localhost:8080/swagger
@@ -45,12 +45,12 @@ Aqui estão os endpoints da API que você pode usar para testar as funcionalidad
         - exemplo: api/v1/product/1/category/1
     - #### Método: `GET`
     - #### Resposta:
-    [{"id": 1,
-    "name": "Coxinha",
+    {
+    "name": "Americano",
     "category": "LANCHE",
-    "price": 5.90,
-    "description": "Salgado frito recheado com frango",
-    "image": "example.html"}]
+    "price": 20.9,
+    "description": "lanche bom"
+    }
 
 ## Autores e Reconhecimentos
 
