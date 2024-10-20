@@ -1,7 +1,7 @@
 package br.com.product.app.dto.response;
 
 import br.com.product.domain.enums.Category;
-import br.com.product.infra.db.model.Product;
+import br.com.product.domain.model.Product;
 
 import java.math.BigDecimal;
 

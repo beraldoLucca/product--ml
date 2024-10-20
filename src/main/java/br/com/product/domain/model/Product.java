@@ -1,4 +1,4 @@
-package br.com.product.infra.db.model;
+package br.com.product.domain.model;
 
 import br.com.product.domain.enums.Category;
 import jakarta.persistence.*;

@@ -4,7 +4,7 @@ import br.com.product.app.dto.response.ProductResponseDTO;
 import br.com.product.app.service.IProductService;
 import br.com.product.domain.enums.Category;
 import br.com.product.domain.exception.ValidationException;
-import br.com.product.infra.db.model.Product;
+import br.com.product.domain.model.Product;
 import br.com.product.infra.repository.IProductRepository;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Service;
